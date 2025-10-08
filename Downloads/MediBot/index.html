@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Medibot — Baymax</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Baymax<span class="dot">.</span></div>
+    <nav class="nav">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#diagnose">Diagnose</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="hero" id="home">
+    <div class="hero-card glass">
+      <h1 class="title">⚕️ Medibot AI companion — <span class="accent">Baymax</span></h1>
+      <p class="subtitle">Hi! I'm Baymax — tell me how you're feeling and I'll guide you.</p>
+      <div class="cta-row">
+        <button class="btn btn-primary" id="ask-btn">Ask Baymax</button>
+        <button class="btn btn-outline" id="diag-btn">Start Diagnosis</button>
+      </div>
+      <div class="micro-info">
+        <img class="avatar" src="https://images.unsplash.com/photo-1542736667-069246bdbc76?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=3e7e9c9d1a5a2b0d6d2b6a7f8b7a7b70" alt="avatar">
+        <div class="meta">
+          <div class="meta-title">Instant suggestions</div>
+          <div class="meta-sub">Symptom checker • Quick triage • Follow-up tips</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="cards" id="diagnose">
+    <article class="card">
+      <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7EB2rUQygLbA50froIfj-XF3n-vMkxlaasQ&s" alt="Diagnosis">
+      <div class="card-body">
+        <h3>Diagnosis</h3>
+        <p>Get a fast AI-assisted check and clear next steps — minimal fuss, maximum clarity.</p>
+        <div class="card-actions">
+          <button class="btn btn-mini neon-btn">Open</button>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <small>© <span id="year"></span> Baymax · Built with empathy</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
